@@ -1,0 +1,63 @@
+{
+  "best_model_name": "Logistic Regression",
+  "is_keras": false,
+  "metrics": {
+    "accuracy": 0.0949,
+    "precision_weighted": 0.0938,
+    "recall_weighted": 0.0949,
+    "f1_weighted": 0.0889
+  },
+  "all_results": {
+    "Logistic Regression": {
+      "accuracy": 0.0949,
+      "precision_weighted": 0.0938,
+      "recall_weighted": 0.0949,
+      "f1_weighted": 0.0889
+    },
+    "Random Forest": {
+      "accuracy": 0.0782,
+      "precision_weighted": 0.0761,
+      "recall_weighted": 0.0782,
+      "f1_weighted": 0.0765
+    },
+    "SVM (RBF)": {
+      "accuracy": 0.0898,
+      "precision_weighted": 0.0849,
+      "recall_weighted": 0.0898,
+      "f1_weighted": 0.0614
+    },
+    "XGBoost": {
+      "accuracy": 0.0818,
+      "precision_weighted": 0.0811,
+      "recall_weighted": 0.0818,
+      "f1_weighted": 0.0813
+    },
+    "Deep Learning (Keras MLP)": {
+      "accuracy": 0.0934,
+      "precision_weighted": 0.0716,
+      "recall_weighted": 0.0934,
+      "f1_weighted": 0.0713
+    }
+  },
+  "feature_cols": [
+    "Logical quotient rating",
+    "hackathons",
+    "coding skills rating",
+    "public speaking points",
+    "self-learning capability?",
+    "Extra-courses did",
+    "Taken inputs from seniors or elders",
+    "worked in teams ever?",
+    "Introvert",
+    "reading and writing skills",
+    "memory capability score",
+    "certifications",
+    "workshops",
+    "Interested subjects",
+    "interested career area",
+    "Type of company want to settle in?",
+    "Interested Type of Books",
+    "Management or Technical",
+    "hard/smart worker"
+  ]
+}
